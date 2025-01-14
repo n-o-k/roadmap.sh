@@ -1,9 +1,20 @@
 @font-face {
     font-family: Avara-master;
-    src: url(fonts/Avara-master/fonts/webfonts/Black/Avara-Black.eot);
-    src: url(fonts/Avara-master/fonts/webfonts/Black/Avara-Black.eot) format('embedded-opentype'),
-        url(fonts/Avara-master/fonts/webfonts/Black/Avara-Black.woff) format('woff')
+    src: url(fonts/Avara-master/fonts/webfonts/Black/Avara-Black.woff) format('woff');
 }
 body {
     background-color: moccasin;
+}
+
+h1, h2 {
+    font-family: Avara-master;
+    border: solid blueviolet;
+}
+
+p {
+    border: solid brown;
+}
+
+li {
+    border: solid cyan;
 }
